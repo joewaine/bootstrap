@@ -60,7 +60,7 @@
 
         <h1>
         <a href="<?php echo get_site_url(); ?>">
-        <img class="logo" src="<?php echo get_site_url() . '/wp-content/uploads/2017/10/rightsideLogo.png'; ?>">
+        <img class="logo" src="<?php echo get_site_url() . '/wp-content/themes/bootstrap/img/rightsideLogo.png'; ?>">
         </a>
         </h1>
 

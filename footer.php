@@ -103,8 +103,8 @@
 
 
 <div class="col-md-2 col-sm-2 col-xs-3">
-    <p><img src="<?php echo get_site_url() . '/wp-content/uploads/2017/10/donuts-color-logo.png'; ?>"></p>
-  </div>
+  <p><img src="<?php echo get_site_url() . '/wp-content/themes/bootstrap/img/donuts-color-logo.png'; ?>"></p>
+</div>
 
 
 </div></div></div></div>
