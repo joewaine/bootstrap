@@ -345,7 +345,7 @@ if( have_rows('modules') ):
 <?php elseif( get_row_layout() == 'video_header' ): ?>
 
 
-<div style="position: relative;height: 90vh;">
+<div style="position: relative;">
 
   <video id="my-video" class="video-js" autoplay preload="auto" data-setup="{}" style="position: absolute;">
     <source src="<?php the_sub_field('video') ?>" type='video/mp4'>
