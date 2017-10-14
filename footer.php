@@ -166,7 +166,8 @@ endif;
     $( ".accordion" ).accordion({
 
  active: false,
-    collapsible: true
+    collapsible: true,
+    heightStyle: "content"
 
     });
   } );
@@ -177,8 +178,8 @@ endif;
 
  active: false,
     collapsible: true,
-    header: "li.menu-item"
-
+    header: "li.menu-item",
+heightStyle: "content"
     });
   } );
 
