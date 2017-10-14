@@ -16,6 +16,107 @@
 
 
 
+
+
+<!-- tld info page stuff -->
+<!-- tld info page stuff -->
+<!-- tld info page stuff -->
+<!-- tld info page stuff -->
+<?php if(get_field('tld_name')){ ?>
+<header class="revert-second-menu" id="pageHeader" style="background-image: url(<?php the_field('tld_background_image'); ?>);-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+  <img src="<?php the_field('tld_background_image'); ?>" width="1200" height="386" alt="" style="margin-top: 0px; margin-bottom: 0px;">
+  <div id="pageHeaderContent">
+    <div class="container">
+      <div class="row col-md-7">
+<?php if(get_field('tld_logo_image')){ ?>
+<h1><img src="<?php the_field('tld_logo_image'); ?>" alt=""></h1>
+<?php } ?>
+      </div>    </div>  </div></header>
+
+<?php if(get_field('example_usage_line')){ ?>
+<section class="example-usage-line text-center">
+  <h2><?php the_field('example_usage_line'); ?></h2>
+</section>
+<?php } ?>
+
+<section>
+  <div class="container">
+<div class="row">
+<?php if(get_field('left_column')){ ?>
+<div class="col-sm-7">
+
+<?php the_field('left_column'); ?>
+</div>
+<?php } ?>
+
+
+<?php if(get_field('right_column_repeater')){ ?>
+<div class="col-sm-5">
+
+<div class="right-column-container">
+
+<h3 class="pad-20">
+<?php the_field('right_column_header'); ?>
+</h3>
+<!-- while  -->
+<?php while ( have_rows('right_column_repeater') ) : the_row(); ?>
+<div class="right-colum-item">
+<?php the_sub_field('right_column_item'); ?>
+</div>
+<?php endwhile; ?>
+<!-- while -->
+
+</div>
+</div>
+<?php } ?>
+
+
+
+
+</div></div>
+</section>
+
+<?php if(get_field('tld_uses')){ ?>
+<section class="grey-bg">
+
+<div class="container">
+<div class="row">
+  <h3>
+    <?php the_field('tld_uses'); ?>
+  </h3>
+</div>
+<div class="row">
+
+
+
+<!-- while  -->
+<?php while ( have_rows('tld_uses_repeater') ) : the_row(); ?>
+<div class="col-sm-4 text-center">
+  <div class="row usage-item">
+<img src="<?php the_sub_field('tld_usage_example_image'); ?>" alt="<?php the_sub_field('tld_usage_example_name'); ?>">
+<a href="<?php the_sub_field('tld_usage_example_link'); ?>"><?php the_sub_field('tld_usage_example_name'); ?></a>
+</div></div>
+<?php endwhile; ?>
+<!-- while -->
+
+</div>
+
+</div>
+</section>
+<?php }?>
+
+
+
+
+
+<?php } ?>
+
+<!-- tld info page stuff -->
+<!-- tld info page stuff -->
+<!-- tld info page stuff -->
+<!-- tld info page stuff -->
+
+
 <?php
 
 // check if the flexible content field has rows of data
@@ -311,7 +412,7 @@ if( have_rows('modules') ):
 
 <?php elseif( get_row_layout() == 'featured_tlds' ): ?>
 
-   <section class="">
+   <section class="no-top-pad">
       <div class="container text-center">
 
 <h3 class="featured-tlds"><?php the_sub_field('header'); ?></h3>
