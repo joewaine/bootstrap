@@ -360,6 +360,14 @@ if( have_rows('modules') ):
 <!-- dark background text module -->
 <?php elseif( get_row_layout() == 'dark_background_text_callout_module' ): ?>
 
+
+<?php if( get_sub_field('id_tag') ){?>
+   <section id="<?php the_sub_field('id_tag') ?>" class="dark-bg-text-module">
+
+<?php }else{ ?>
+   <section class="dark-bg-text-module">
+<?php } ?>
+
    <section class="dark-bg-text-module">
       <div class="container">
 
@@ -498,8 +506,17 @@ if( have_rows('modules') ):
           <?php while ( have_rows('staff_members') ) : the_row(); ?>
 <!-- repeat this -->
     <!-- <div class="staff-member" style="background-image: url('<?php the_sub_field('image'); ?>');"> -->
-    <div class="staff-member">
 
+
+<?php if(get_sub_field('last_name_tag_identifier')){ ?>
+
+    <div id="<?php the_sub_field('last_name_tag_identifier') ?>" class="staff-member">
+
+<?php }else{ ?>
+
+ <div class="staff-member">
+
+<?php } ?>
 
 <img src="<?php the_sub_field('image'); ?>" alt="">
 <div class="info">
