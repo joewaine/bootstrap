@@ -671,7 +671,10 @@ if( have_rows('modules') ):
     <a href="mailto:<?php the_sub_field('contact_email'); ?>">
       <?php the_sub_field('contact_email'); ?>
     </a>
-
+    <?php if(get_sub_field('second_contact_option')){ ?>
+    <br>
+    <span style="float:right;padding-right: 50px;"><?php the_sub_field('second_contact_option'); ?></span>
+    <?php } ?>
 </div>
             <!-- repeat this -->
                     <?php  endwhile; ?>

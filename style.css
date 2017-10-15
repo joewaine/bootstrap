@@ -2353,3 +2353,7 @@ p.fancyButton a:link, p.fancyButton a:visited {
     border-bottom: 10px solid #009BBF;
 }
 
+.contacts .col-sm-6{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
