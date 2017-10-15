@@ -2378,13 +2378,16 @@ p.fancyButton a:link, p.fancyButton a:visited {
     font-size: 16px;
     margin-bottom: 60px;
     text-align: center;
-    padding: 20px;
+    padding: 108px 20px 20px 20px;
     line-height: 28px;
     background-color: #ffffff;
-    -webkit-transition: background-color .25s; /* Safari */
+    -webkit-transition: background-color .25s;
     transition: background-color .25s;
     cursor: pointer;
     min-height: 330px;
+
+    background-position: 50% 27px;
+    background-repeat: no-repeat;
 }
 
 .news-item img{
