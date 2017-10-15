@@ -2357,3 +2357,13 @@ p.fancyButton a:link, p.fancyButton a:visited {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+
+.second-contact-option{
+    float: right;
+    padding-right: 50px;
+}
+
+.contacts .second-contact-option a{
+    float:none;
+}
