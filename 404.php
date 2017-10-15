@@ -20,6 +20,7 @@
 
         </div><!-- /.blog-main -->
 </div>
+<br><br><br>
         <?php get_sidebar(); ?>
 
       </div><!-- /.row -->

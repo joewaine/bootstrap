@@ -438,3 +438,26 @@ $('.mobile-menu').removeClass('expanded-menu');
 <?php } ?>
 
 
+
+
+
+<?php if(is_page('accredited-registrars')){ ?>
+
+<script type="text/javascript">
+
+
+
+  if(window.location.hash == '#become-a-registrar'){
+
+       scrollTop: $("#become-a-registrar").offset().top - 82
+
+
+  }
+
+
+
+</script>
+
+<?php } ?>
+
+
