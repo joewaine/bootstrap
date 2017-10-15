@@ -496,7 +496,7 @@ if( have_rows('modules') ):
 
 
 
-<section class="">
+<section class="aqua-border-top">
   <div class="container staff-title">
   <h2>Meet Our People</h2>
   </div>
