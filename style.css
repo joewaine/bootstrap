@@ -2366,3 +2366,7 @@ p.fancyButton a:link, p.fancyButton a:visited {
 .contacts .second-contact-option a{
     float:none;
 }
+
+.contacts{
+    padding-bottom: 10px;
+}
