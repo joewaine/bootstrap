@@ -2384,14 +2384,14 @@ p.fancyButton a:link, p.fancyButton a:visited {
     -webkit-transition: background-color .25s; /* Safari */
     transition: background-color .25s;
     cursor: pointer;
-
-
+    min-height: 330px;
 }
 
 .news-item img{
 margin-bottom: 30px;
 margin-top: 13px;
     opacity: .6;
+    /*display: block;*/
 }
 
 .news-item:hover{

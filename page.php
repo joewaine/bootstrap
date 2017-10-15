@@ -790,6 +790,7 @@ if( have_rows('modules') ):
 <div class="col-sm-3" data-link="<?php the_sub_field('news_link'); ?>">
   <div class="news-item">
     <img src="<?php the_sub_field('news_image'); ?>" alt="<?php the_sub_field('news_image'); ?>">
+    <br>
         <?php the_sub_field('news_text'); ?>
   </div>
 </div>
