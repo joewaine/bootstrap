@@ -368,7 +368,7 @@ if( have_rows('modules') ):
    <section class="dark-bg-text-module">
 <?php } ?>
 
-   <section class="dark-bg-text-module">
+
       <div class="container">
 
 
