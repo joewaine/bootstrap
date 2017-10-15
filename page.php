@@ -787,7 +787,7 @@ if( have_rows('modules') ):
                 <div class="container">
          <?php while ( have_rows('news_item') ) : the_row(); ?>
 
-<div class="col-sm-3" data-link="<?php the_sub_field('news_link'); ?>">
+<div class="col-sm-3 news-item-container" data-link="<?php the_sub_field('news_link'); ?>">
   <div class="news-item" style="background-image: url(<?php the_sub_field('news_image'); ?>)">
         <?php the_sub_field('news_text'); ?>
   </div>

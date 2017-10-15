@@ -2385,9 +2385,9 @@ p.fancyButton a:link, p.fancyButton a:visited {
     transition: background-color .25s;
     cursor: pointer;
     min-height: 330px;
-
     background-position: 50% 27px;
     background-repeat: no-repeat;
+    background-size: 90%;
 }
 
 .news-item img{
@@ -2401,5 +2401,8 @@ margin-top: 13px;
     background-color: #009abf;
 }
 
-
+.col-sm-3.news-item-container{
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
