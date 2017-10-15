@@ -132,7 +132,7 @@ if( have_rows('modules') ):
         if( get_row_layout() == 'tld_example_module' ):
 ?>
 
-<section class="bkgd-dark top-border">
+<section class="bkgd-dark">
 <div class="container">
 
 
@@ -496,7 +496,7 @@ if( have_rows('modules') ):
 
 
 
-<section class="aqua-border-top">
+<section class="">
   <div class="container staff-title">
   <h2>Meet Our People</h2>
   </div>
