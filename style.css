@@ -2328,7 +2328,7 @@ padding-bottom: 100px;
 .iframe-area{
     height: 400px;
     overflow: scroll;
-    padding: 0;
+    padding: 0 !important;
     position: relative;
 }
 
