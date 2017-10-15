@@ -347,7 +347,7 @@ if( have_rows('modules') ):
 
 <div style="position: relative;">
 
-  <video id="my-video" class="video-js" autoplay preload="auto" data-setup="{}" style="position: absolute;">
+  <video id="my-video" class="video-js" autoplay loop preload="auto" data-setup="{}" style="position: absolute;">
     <source src="<?php the_sub_field('video') ?>" type='video/mp4'>
     <!-- <source src="MY_VIDEO.webm" type='video/webm'> -->
     <p class="vjs-no-js">
