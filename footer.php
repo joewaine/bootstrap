@@ -413,11 +413,20 @@ $('.mobile-menu').removeClass('expanded-menu');
 });
 
 
-
-
 </script>
 
 
+<?php if(is_page('team')){ ?>
 
-  </body>
-</html>
+<script type="text/javascript">
+
+
+  if(window.location.hash){
+    $(window.location.hash).click();
+  }
+
+</script>
+
+<?php } ?>
+
+
