@@ -744,6 +744,7 @@ if( have_rows('modules') ):
 <iframe src="https://great.domains/searchbar/donutsdomains/" width="800" height="430" frameborder="0" scrolling="no"></iframe>
 
 
+<div class="text-center"><?php the_sub_field('bottom_text'); ?></div>
 </div>
 </section>
 
