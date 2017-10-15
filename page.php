@@ -701,7 +701,7 @@ if( have_rows('modules') ):
 <!-- locations module -->
 
 <?php elseif( get_row_layout() == 'locations_module' ): ?>
-<section class="">
+<section class="no-top-pad">
   <div class="container investors">
 <h2>
    <?php the_sub_field('title'); ?>
