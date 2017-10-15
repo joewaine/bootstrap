@@ -1626,6 +1626,7 @@ img.gray-border{
     -webkit-transition: opacity .5s; /* Safari */
     transition: opacity .5s;
     padding-bottom: 20px;
+    min-height: 360px;
 }
 
 .staff-member:hover{
@@ -2312,4 +2313,29 @@ padding-bottom: 100px;
 .usage-item a:hover{
     color: #009abf;
 }
+
+
+.team{
+    border-bottom: 10px solid #009BBF;
+    padding-top: 50px;
+}
+
+
+
+@media screen and (max-width: 768px){
+
+p.fancyButton a:link, p.fancyButton a:visited {
+    padding: 17px 10px;
+}
+
+
+.fancyButton a {
+    font-size: 16px;
+}
+
+
+
+}
+
+
 
