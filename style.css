@@ -2348,5 +2348,9 @@ p.fancyButton a:link, p.fancyButton a:visited {
 
 }
 
-
+.feature-info-carousel,
+#my-video,
+#pageHeader{
+    border-bottom: 10px solid #009BBF;
+}
 

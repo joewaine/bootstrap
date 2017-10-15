@@ -745,7 +745,7 @@ if( have_rows('modules') ):
 
 
 </div>
-<div class="text-center"><?php the_sub_field('bottom_text'); ?></div>
+<div class="text-center no-top-pad"><?php the_sub_field('bottom_text'); ?></div>
 </section>
 
 
