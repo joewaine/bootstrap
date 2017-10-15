@@ -2370,3 +2370,33 @@ p.fancyButton a:link, p.fancyButton a:visited {
 .contacts{
     padding-bottom: 10px;
 }
+
+
+.news-item{
+    border: 1px solid #ccc;
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 60px;
+    text-align: center;
+    padding: 20px;
+    line-height: 28px;
+    background-color: #ffffff;
+    -webkit-transition: background-color .25s; /* Safari */
+    transition: background-color .25s;
+    cursor: pointer;
+
+
+}
+
+.news-item img{
+margin-bottom: 30px;
+margin-top: 13px;
+    opacity: .6;
+}
+
+.news-item:hover{
+    background-color: #009abf;
+}
+
+
+

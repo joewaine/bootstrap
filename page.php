@@ -760,11 +760,62 @@ if( have_rows('modules') ):
 
 
 
+<!-- in the news module -->
+<!-- in the news module -->
+<!-- in the news module -->
+<!-- in the news module -->
+
+
+
+
+<?php elseif( get_row_layout() == 'in_the_news' ): ?>
+<section class="text-module">
+
+
+ <div class="container">
+  <h2>
+   <?php the_sub_field('intro_text'); ?>
+ </h2>
+ <br>
+ </div>
+
+
+
+  <!-- repeat here -->
+          <?php if( have_rows('news_item') ): ?>
+               <div class="row">
+                <div class="container">
+         <?php while ( have_rows('news_item') ) : the_row(); ?>
+
+<div class="col-sm-3" data-link="<?php the_sub_field('news_link'); ?>">
+  <div class="news-item">
+    <img src="<?php the_sub_field('news_image'); ?>" alt="<?php the_sub_field('news_image'); ?>">
+        <?php the_sub_field('news_text'); ?>
+  </div>
+</div>
+            <!-- repeat this -->
+                    <?php  endwhile; ?>
+                  </div></div>
+                  <?php endif; ?>
+  <!-- repeat here -->
+
+ <div class="container search-domains">
+   <?php the_sub_field('press_releases'); ?>
+ </div>
+
+
+
+
+</section>
 
 
 
 
 
+<!-- in the news module -->
+<!-- in the news module -->
+<!-- in the news module -->
+<!-- in the news module -->
 
 
 
