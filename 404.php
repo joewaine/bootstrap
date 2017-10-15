@@ -9,7 +9,8 @@
 	get_header(); ?>
 
       <div class="row">
-
+        <br><br><br>
+<div class="container">
         <div class="col-sm-8 blog-main">
 
           <h2 class="center"><?php _e( 'This is somewhat embarrassing, isn&rsquo;t it?', 'bootstrapcanvaswp' ); ?></h2>
@@ -18,9 +19,9 @@
 		  <?php get_search_form(); ?>
 
         </div><!-- /.blog-main -->
-
+</div>
         <?php get_sidebar(); ?>
 
       </div><!-- /.row -->
-      
+
 	<?php get_footer(); ?>
