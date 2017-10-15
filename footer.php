@@ -423,6 +423,14 @@ $('.mobile-menu').removeClass('expanded-menu');
 
   if(window.location.hash){
     $(window.location.hash).click();
+
+
+
+  $('html, body').animate({
+        scrollTop: $(".member-info-data").offset().top
+    }, 2000);
+
+
   }
 
 </script>
