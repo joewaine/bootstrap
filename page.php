@@ -451,7 +451,7 @@ if( have_rows('modules') ):
 
 <?php elseif( get_row_layout() == 'accordion_module' ): ?>
 
-   <section class="">
+   <section class="no-top-pad">
 
 <div class="container text-center">
   <?php if( get_sub_field('accordion_title') ){ ?>
