@@ -413,6 +413,15 @@ $('.mobile-menu').removeClass('expanded-menu');
 });
 
 
+
+$(".news-item-container").click(function(){
+
+  window.open($(this).data('link'),' _blank');
+
+});
+
+
+
 </script>
 
 
