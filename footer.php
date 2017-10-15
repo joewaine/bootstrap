@@ -45,7 +45,7 @@
               // check for rows (sub repeater)
               if( have_rows('footer_link_links') ): ?>
 
-                <ul class="nav-directory hidden-xs">
+                <ul class="nav-directory">
                 <?php
 
                 // loop through rows (sub repeater)
