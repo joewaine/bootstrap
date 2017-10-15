@@ -673,7 +673,7 @@ if( have_rows('modules') ):
     </a>
     <?php if(get_sub_field('second_contact_option')){ ?>
     <br>
-    <span style="float:right;padding-right: 50px;"><?php the_sub_field('second_contact_option'); ?></span>
+    <span style="float:right;"><?php the_sub_field('second_contact_option'); ?></span>
     <?php } ?>
 </div>
             <!-- repeat this -->
