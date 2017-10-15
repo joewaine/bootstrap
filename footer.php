@@ -428,7 +428,7 @@ $('.mobile-menu').removeClass('expanded-menu');
 
   $('html, body').animate({
         scrollTop: $(".member-info-data").offset().top - 82
-    }, 2000);
+    }, 500);
 
 
   }
