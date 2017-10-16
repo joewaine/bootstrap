@@ -2457,6 +2457,20 @@ header#siteHeader {
     background: rgba(100, 100, 100, 1);
 }
 
+
+.all-tlds-list {
+    clear: both;
+    padding: 10px 0px;
+    margin: 0px 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+.all-tlds-list li {
+    padding: 6px;
+    float: left;
+}
+
 }
 
 
@@ -2471,8 +2485,8 @@ header#siteHeader {
 }
 
 .featured-tlds img.solutions {
-    margin: 20px auto;
-    width: 80%;
+    margin: 30px auto;
+    width: 60%;
     max-height: fit-content;
     float: none;
 }
