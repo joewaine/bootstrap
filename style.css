@@ -1812,7 +1812,7 @@ opacity: .8;
 
 .owl-item .container{
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 
@@ -2523,6 +2523,9 @@ img.tld-page-header-image{
 
 }
 
+.owl-carousel.owl-theme.owl-loaded.owl-drag{
+    height: 250px;
+}
 
 
 @media screen and (max-width: 640px){
