@@ -2454,6 +2454,10 @@ body{
 }
 
 
+header#siteHeader {
+    background: rgba(100, 100, 100, 1);
+}
+
 }
 
 
