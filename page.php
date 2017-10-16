@@ -24,7 +24,7 @@
 <!-- tld info page stuff -->
 <?php if(get_field('tld_name')){ ?>
 <header class="revert-second-menu" id="pageHeader" style="background-image: url(<?php the_field('tld_background_image'); ?>);-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
-  <img src="<?php the_field('tld_background_image'); ?>" width="1200" height="386" alt="" style="margin-top: 0px; margin-bottom: 0px;">
+  <img class="tld-page-header-image" src="<?php the_field('tld_background_image'); ?>" width="1200" height="386" alt="" style="margin-top: 0px; margin-bottom: 0px;">
   <div id="pageHeaderContent">
     <div class="container">
       <div class="row col-md-7">

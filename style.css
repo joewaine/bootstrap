@@ -2516,6 +2516,10 @@ header#siteHeader {
     font-size: 24px;
 }
 
+img.tld-page-header-image{
+    display: none;
+}
+
 
 }
 
