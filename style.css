@@ -2421,6 +2421,10 @@ margin-top: 13px;
 
 
 
+
+
+
+
 @media screen and (max-width: 768px){
     .desktop-header-image{
         display: none;
@@ -2484,6 +2488,13 @@ header#siteHeader {
     padding: 6px;
     float: left;
 }
+
+
+.customer-list .row{
+padding-left: 20px;
+
+}
+
 
 }
 
