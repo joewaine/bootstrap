@@ -2474,6 +2474,7 @@ header#siteHeader {
     margin: 20px auto;
     width: 80%;
     max-height: fit-content;
+    float: none;
 }
 
 }
