@@ -2406,6 +2406,15 @@ margin-top: 13px;
     padding-right: 5px;
 }
 
+.customer-list .col-sm-3,
+.customer-list .col-sm-3 a,
+.customer-list .col-sm-3 .row,
+.customer-list .col-sm-3 .row a{
+    font-size: 15.2px;
+    font-weight: 100;
+    color: #009BBF;
+}
+
 
 @media screen and (max-width: 768px){
     .desktop-header-image{

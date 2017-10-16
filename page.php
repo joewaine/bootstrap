@@ -324,7 +324,7 @@ if( have_rows('modules') ):
 <!--customers module  -->
 <!--customers module  -->
 <?php elseif( get_row_layout() == 'customer_list' ): ?>
-    <section class="">
+    <section class="customer-list">
       <div class="container">
           <!-- title and content -->
             <?php the_sub_field('customer_list_intro_text'); ?>
