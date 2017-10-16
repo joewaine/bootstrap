@@ -2450,7 +2450,6 @@ margin-top: 13px;
 
 body{
     margin-top: 46px;
-    background: #777;
 }
 
 
@@ -2469,6 +2468,12 @@ header#siteHeader {
     margin: 20px auto;
     width: 80%;
     height: auto;
+}
+
+.featured-tlds img.solutions {
+    margin: 20px auto;
+    width: 80%;
+    max-height: fit-content;
 }
 
 }
