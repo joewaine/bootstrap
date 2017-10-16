@@ -2413,6 +2413,8 @@ margin-top: 13px;
     font-weight: 100;
     color: #009BBF;
     line-height: 18px;
+    min-height: 30px;
+    font-size: 14px;
 }
 
 
