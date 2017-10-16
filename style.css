@@ -2491,8 +2491,8 @@ header#siteHeader {
 
 
 .customer-list .row{
-padding-left: 20px;
-
+    padding-left: 24px;
+    margin-left: -30px;
 }
 
 
