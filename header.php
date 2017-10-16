@@ -259,6 +259,34 @@
           </ul>
 
         <?php endif;  ?>
+
+
+
+<!-- social -->
+
+        <?php if( have_rows('social_links', 'option') ): ?>
+        <ul id="socialSearch">
+        <?php while ( have_rows('social_links', 'option') ) : the_row(); ?>
+        <li>
+            <a href="<?php the_sub_field('link'); ?>" target="_blank">
+        <i class="fa fa-<?php the_sub_field('name'); ?>"></i>
+        <!-- <?php the_sub_field('name'); ?> -->
+        </a>
+        </li>
+        <?php
+            endwhile;
+        ?>
+        </ul>
+        <?php
+        else :
+        endif;
+        ?>
+
+<!-- social -->
+
+
+
+
         </div>
 
 

@@ -2496,6 +2496,27 @@ header#siteHeader {
 }
 
 
+
+.mobile-menu-container #socialSearch{
+    display: block;
+    float: left;
+    margin-left: 12px;
+    margin-bottom: 0;
+}
+
+.mobile-menu-container #socialSearch li{
+        padding-top: 0;
+}
+
+.mobile-menu-container #socialSearch li a{
+    color: #009BBF;
+}
+
+.mobile-menu-container #socialSearch li  .fa {
+    font-size: 24px;
+}
+
+
 }
 
 
