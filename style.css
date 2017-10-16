@@ -2410,17 +2410,9 @@ margin-top: 13px;
 .customer-list .col-sm-3 a,
 .customer-list .col-sm-3 .row,
 .customer-list .col-sm-3 .row a{
-    font-size: 15.2px;
     font-weight: 100;
     color: #009BBF;
-}
-
-
-
-.customer-list .col-sm-3 .row{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    height: 30px;
+    line-height: 18px;
 }
 
 
