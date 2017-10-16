@@ -328,7 +328,7 @@ if( have_rows('modules') ):
 ?>
 
 <header class="revert-second-menu" id="pageHeader" style="background-image: url(<?php the_sub_field('background_image') ?>);-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
-  <img src="<?php the_sub_field('background_image') ?>" width="1200" height="386" alt="" style="margin-top: 0px; margin-bottom: 0px;">
+  <img class="desktop-header-image" src="<?php the_sub_field('background_image') ?>" width="1200" height="386" alt="" style="margin-top: 0px; margin-bottom: 0px;">
   <div id="pageHeaderContent">
     <div class="container">
       <div class="row col-md-7">
