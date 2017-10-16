@@ -2505,7 +2505,7 @@ header#siteHeader {
 }
 
 .mobile-menu-container #socialSearch li{
-        padding-top: 0;
+    padding-top: 10px;
 }
 
 .mobile-menu-container #socialSearch li a{
