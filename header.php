@@ -15,6 +15,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php wp_title(); ?></title>
 
+
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700" rel="stylesheet">
+
+
+
 <!-- font awesome -->
 <link rel="stylesheet" href="<?php echo get_site_url() . '/wp-content/themes/bootstrap/css/font-awesome.css'?>">
 <!-- font awesome -->
