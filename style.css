@@ -851,7 +851,8 @@ ul.nav-directory{
 .nav-directory li a{
     color: #fff;
     /*font-size: 12.8px;*/
-    font-size: 12px;
+    font-size: 13px;
+    text-decoration: none;
 }
 
 
