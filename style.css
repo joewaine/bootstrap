@@ -99,7 +99,7 @@ a img.aligncenter {
 }
 
 .wp-post-image {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .sticky {
@@ -109,11 +109,11 @@ a img.aligncenter {
 }
 
 .entry {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .widget {
-	text-align: initial;
+    text-align: initial;
 }
 
 .widget ul {
@@ -122,52 +122,52 @@ a img.aligncenter {
 }
 
 #searchsubmit {
-	margin: 4px 0;
+    margin: 4px 0;
 }
 
 .comment-list {
-	padding: 0;
+    padding: 0;
 }
 
 .comment-list,
 .children:nth-child(n+1) {
-	list-style: none;
+    list-style: none;
 }
 
 @media (max-width: 767px) {
-	.comment-list,
-	.children:nth-child(n+1) {
-		padding: 0;
-  	}
+    .comment-list,
+    .children:nth-child(n+1) {
+        padding: 0;
+    }
 }
 
 /* Text meant only for screen readers. */
 .screen-reader-text {
-	clip: rect(1px, 1px, 1px, 1px);
-	position: absolute !important;
-	height: 1px;
-	width: 1px;
-	overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
 }
 
 .screen-reader-text:focus {
-	background-color: #f1f1f1;
-	border-radius: 3px;
-	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-	clip: auto !important;
-	color: #21759b;
-	display: block;
-	font-size: 14px;
-	font-size: 0.875rem;
-	font-weight: bold;
-	height: auto;
-	left: 5px;
-	line-height: normal;
-	padding: 15px 23px 14px;
-	text-decoration: none;
-	top: 5px;
-	width: auto;
-	z-index: 100000; /* Above WP toolbar. */
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
 }
 
 .main-navigation {
@@ -236,35 +236,35 @@ a img.aligncenter {
 
 @media screen and (max-width:768px) {
     .nav-menu li:not(:first-child) {
-	/*display: none;*/
+    /*display: none;*/
     }
 
     .nav-menu li.menu-toggle {
-	float: right;
-	display: block;
+    float: right;
+    display: block;
     }
 
 }
 
 @media screen and (max-width:768px) {
     .nav-menu.responsive {
-	position: relative;
+    position: relative;
     }
 
     .nav-menu.responsive .menu-toggle {
-    	position: absolute;
-    	right: 0;
-    	top: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
     }
 
     .nav-menu.responsive li {
-    	float: none;
-    	display: inline;
+        float: none;
+        display: inline;
     }
 
     .nav-menu.responsive li a {
-  	display: block;
-    	text-align: left;
+    display: block;
+        text-align: left;
     }
 
 
@@ -312,8 +312,8 @@ a img.aligncenter {
 
 @media screen and (max-width:768px) {
     .sub-menu {
-    	position: relative;
-    	width: 100%;
+        position: relative;
+        width: 100%;
     }
     .sub-menu > li > a {
         width: 100%;
@@ -321,9 +321,9 @@ a img.aligncenter {
 
     .sub-menu ul,
     .children ul {
-    	display: none;
-    	left: 0;
-    	top: 0;
+        display: none;
+        left: 0;
+        top: 0;
     }
 }
 
@@ -506,7 +506,7 @@ li.menu-item:hover{
 
 
 li.menu-item:hover a{
-        color: #009BBF !important;
+        color: #009abf !important;
         text-decoration: none;
 }
 
@@ -534,7 +534,7 @@ height: auto;
 
 
 main #pageHeader {
-    /*border-bottom: 10px solid #009BBF;*/
+    /*border-bottom: 10px solid #009abf;*/
     color: #fff;
     position: relative;
     overflow: hidden;
@@ -730,7 +730,7 @@ nav .nav-directory li{
 
 
 nav .nav-directory li:hover{
-    background-color: #009BBF;
+    background-color: #009abf;
 }
 
 nav .nav-directory li:hover a{
@@ -749,7 +749,7 @@ border-left: 1px solid transparent;
 
 
 .row.rellax{
-        border-top: 10px solid #009BBF;
+        border-top: 10px solid #009abf;
     background-color: #fff;
     position: relative;
     overflow: hidden;
@@ -768,7 +768,7 @@ border-left: 1px solid transparent;
 }
 
 main #pageHeader {
-    border-bottom: 10px solid #009BBF;
+    border-bottom: 10px solid #009abf;
     color: #fff;
     position: relative;
     overflow: hidden;
@@ -856,6 +856,11 @@ ul.nav-directory{
 }
 
 
+#siteFooter .nav-directory li a{
+        color: #d6d6d6;
+}
+
+
 .nav-directory li{
     position: relative;
 }
@@ -872,7 +877,7 @@ ul.nav-directory{
 #siteFooter h4 a:active,
 #siteFooter h4 a:visited{
     font-size: 18px;
-    color: #fff;
+    color: #d6d6d6;
 }
 
 
@@ -936,8 +941,12 @@ p.fancyButton a:link, p.fancyButton a:visited {
     text-align: center;
     padding: 17px 29px;
     white-space: nowrap;
+    text-decoration: none;
 }
 
+p.fancyButton a:hover{
+  background: #238FB9;
+}
 
 .dark-bg-text-module{
     border-top: 10px solid #009abf;
@@ -1938,7 +1947,7 @@ padding-left: 40px;
 }
 
 .csc-header.csc-header-n1 a{
-    color: #009BBF;
+    color: #009abf;
 }
 
 
@@ -1970,7 +1979,7 @@ padding-left: 40px;
 
 
 a{
-    color: #009BBF;
+    color: #009abf;
 }
 
 
@@ -1986,14 +1995,14 @@ a{
 
 .policies-list{
     margin: 10px 0;
-    color: #009BBF;
+    color: #009abf;
     list-style-type: none;
 }
 
 
 .policies-list a{
 
-    color: #009BBF;
+    color: #009abf;
 }
 
 
@@ -2184,7 +2193,7 @@ header{
 
 
 .mobile-menu li.menu-item a{
-    color: #009BBF;
+    color: #009abf;
 }
 
 .mobile-menu .nav-menu{
@@ -2316,6 +2325,7 @@ padding-bottom: 100px;
 
 .usage-item a{
     color: #fff;
+    text-decoration: none;
 }
 
 .usage-item a:hover{
@@ -2323,12 +2333,12 @@ padding-bottom: 100px;
 }
 
 .team{
-    border-bottom: 10px solid #009BBF;
+    border-bottom: 10px solid #009abf;
     padding-top: 50px;
 }
 
 .aqua-border-top{
-    border-top: 10px solid #009BBF;
+    border-top: 10px solid #009abf;
 }
 
 .iframe-area{
@@ -2357,7 +2367,7 @@ p.fancyButton a:link, p.fancyButton a:visited {
 .bottom-border-aqua,
 .feature-info-carousel,
 #pageHeader{
-    border-bottom: 10px solid #009BBF;
+    border-bottom: 10px solid #009abf;
 }
 
 .contacts .col-sm-6{
@@ -2418,7 +2428,7 @@ margin-top: 13px;
 .customer-list .col-sm-3 .row,
 .customer-list .col-sm-3 .row a{
     font-weight: 100;
-    color: #009BBF;
+    color: #009abf;
     line-height: 18px;
     min-height: 30px;
     font-size: 14px;
@@ -2516,7 +2526,7 @@ header#siteHeader {
 }
 
 .mobile-menu-container #socialSearch li a{
-    color: #009BBF;
+    color: #009abf;
 }
 
 .mobile-menu-container #socialSearch li  .fa {

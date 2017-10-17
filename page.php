@@ -275,7 +275,7 @@ if( have_rows('modules') ):
 
 
 
-
+<!-- <img src="<?php the_sub_field('background_image'); ?>" style="width:100%;"> -->
 
 <!-- repeater -->
 <!-- repeater -->
