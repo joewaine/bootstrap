@@ -447,7 +447,13 @@ $(".news-item-container").click(function(){
 <?php } ?>
 
 
+<script>
+$('.secondary-menu li.title').click(function(){
+
+window.location.href = $(this).find('a').attr('href');
+
+});
 
 
-
+</script>
 
