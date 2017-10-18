@@ -271,11 +271,10 @@ if( have_rows('modules') ):
 
 <?php elseif( get_row_layout() == 'tld_feature_info_carousel' ): ?>
 
-<section class="feature-info-carousel" style="background-image:url(<?php the_sub_field('background_image'); ?>)">
+<section class="feature-info-carousel" style="background-color: #fff;">
 
 
-
-<!-- <img src="<?php the_sub_field('background_image'); ?>" style="width:100%;"> -->
+ <img src="<?php the_sub_field('background_image'); ?>" style="width:100%;">
 
 <!-- repeater -->
 <!-- repeater -->

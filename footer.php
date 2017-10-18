@@ -277,16 +277,18 @@ $(window).resize(function(){
 $('.staff-member').click(function(){
 
 
+// if($(this).hasClass('halfOpacity')){
+// $('.staff-member').removeClass('halfopacity');
+// $('.member-info-data').remove();
+// }else{
+
+
+
+
 $('.member-info-data').remove();
 
-
-
-
 $('.staff-member').removeClass('halfOpacity');
-
   $(this).addClass('halfOpacity');
-
-
 
 var memberWidth = parseInt($('.staff-member').css('width'));
 var rowWidth = parseInt($('.staff-groupings').css('width'));
@@ -323,54 +325,38 @@ for( var i = 0, len = rowArrays.length; i < len; i++ ) {
         // console.log(result);
         var appender = result[result.length - 1];
 
-
-
 var paragraphcontent = '';
 
 $(this).find('span.employee-description p').each(function(){
 
-
-
 var paragraphpiece = '<p class="avenir-light">' + $(this).text() +  '</p>';
-
 
 paragraphcontent = paragraphcontent + paragraphpiece;
 
-
 });
 
+var contentItem = '<div class="container"><div class="row"><div class="col-md-5" style="display:none;"><img class="gray-border usrImage" src="'+ $(this).find('img').attr('src') +'" style="display:none;"></div><div class="col-sm-7"><h2 class="staff-member-modal">'+ $(this).find('.staff-member-name').text() +'</h2><p class="gray-text gray-border">'+ $(this).find('.top-text').text() +'</p>' + paragraphcontent + '</div></div></div>';
 
-          var contentItem = '<div class="container"><div class="row"><div class="col-md-5" style="display:none;"><img class="gray-border usrImage" src="'+ $(this).find('img').attr('src') +'" style="display:none;"></div><div class="col-sm-7"><h2 class="staff-member-modal">'+ $(this).find('.staff-member-name').text() +'</h2><p class="gray-text gray-border">'+ $(this).find('.top-text').text() +'</p>' + paragraphcontent + '</div></div></div>';
-
-        $('.staff-member:eq('+ appender +')').after('<div class="member-info-data" style="display:none;">' + contentItem + '</div>');
-        $('.staff-member:eq('+ appender +')').next(".member-info-data").slideDown();
-
-
-
-
-
+$('.staff-member:eq('+ appender +')').after('<div class="member-info-data" style="display:none;">' + contentItem + '</div>');
+$('.staff-member:eq('+ appender +')').next(".member-info-data").slideDown();
 
 $('.member-info-data').addClass('appear').addClass('giveHeight');
 $(".member-info-data .container").addClass('slide-down');
 
 setTimeout(function (){
 
-
 $('.usrImage').fadeIn(1000);
 $('.col-md-5').slideDown(500);
 // $('.col-sm-7').slideDown('slow');
-
 }, 100);
-
-
-
    result = null;
         break;
     }
 }
-
 }
 
+
+// }
 
 
 });
