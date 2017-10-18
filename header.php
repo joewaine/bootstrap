@@ -10,17 +10,21 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
   <head>
+<?php if ( wp_is_mobile() ){ ?>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+<?php }else{?>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+<?php } ?>
+
+
+
+
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php the_title(); ?></title>
 
 
-<?php if ( wp_is_mobile() ){ ?>
-
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700" rel="stylesheet">
-
-<?php } ?>
 
 
 
