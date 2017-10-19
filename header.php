@@ -387,6 +387,8 @@ if( have_rows('modules') ):
 <?php elseif( get_row_layout() == 'video_header' ): ?>
 
 
+<?php if(is_front_page()){ ?>
+
 <div class="bottom-border-aqua revert-second-menu" style="position: relative;">
 
   <video id="my-video" class="video-js" autoplay loop preload="auto" data-setup="{}" style="position: absolute;">
@@ -401,7 +403,7 @@ if( have_rows('modules') ):
 
 </div>
 
-
+<?php } ?>
 
 <?php endif; ?>
 <?php endwhile; ?>
