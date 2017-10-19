@@ -318,34 +318,6 @@
 
 
 
-
-
-
-<!--     <?php $header_image = get_header_image(); ?>
-    <div class="blog-header" <?php if ( get_header_image() ) : ?>style="background-image: url( '<?php echo esc_url( $header_image ); ?>'); background-size: cover; background-repeat: no-repeat; background-position: top left; margin-bottom: 30px; width: 100%; height: 100%; min-height: <?php echo HEADER_IMAGE_HEIGHT; ?>px; position: relative;"<?php endif; ?>>
-      <div class="container main-panel" <?php if ( get_header_image() ) : ?>style="height: auto; min-height: <?php echo HEADER_IMAGE_HEIGHT; ?>px; position: relative;"<?php endif; ?>>
-        <?php if ( display_header_text() ) : ?>
-        <?php $header_text_color = get_header_textcolor(); ?>
-	<?php if ( function_exists( 'the_custom_logo' ) ) :
-	  the_custom_logo();
-	endif; ?>
-        <h1 class="blog-title" style="color: #<?php echo $header_text_color ?>;"><?php bloginfo( 'name' ); ?></h1>
-        <p class="lead blog-description" style="color: #<?php echo $header_text_color ?>"><?php bloginfo( 'description' ); ?></p>
-        <?php else : ?>
-        <h1 class="blog-title" style="visibility: hidden; margin: 0; padding: 0; font-size: 0;"><?php bloginfo( 'name' ); ?></h1>
-        <p class="lead blog-description" style="visibility: hidden; margin: 0; padding: 0; font-size: 0;"><?php bloginfo( 'description' ); ?></p>
-        <?php endif; ?>
-      </div>
-    </div> -->
-
-
-
-
-
-
-
-
-
 <?php
 
 // check if the flexible content field has rows of data
@@ -388,8 +360,9 @@ if( have_rows('modules') ):
 
 
 <?php if(is_front_page()){ ?>
-
+<div>
 <div class="bottom-border-aqua revert-second-menu" style="position: relative;">
+
 
   <video id="my-video" class="video-js" autoplay loop preload="auto" data-setup="{}" style="position: absolute;">
     <source src="<?php the_sub_field('video') ?>" type='video/mp4'>
@@ -402,7 +375,7 @@ if( have_rows('modules') ):
 
 
 </div>
-
+</div>
 <?php } ?>
 
 <?php endif; ?>
